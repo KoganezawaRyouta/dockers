@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /usr/local/bin
+cd /app/bin
 ./$1 &
 
 cat <<EOF >>~/.bashrc

@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 wget https://www.kernel.org/pub/software/scm/git/git-2.2.0.tar.gz
 tar -zxf git-2.2.0.tar.gz
 cd git-2.2.0
