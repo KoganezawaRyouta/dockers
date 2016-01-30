@@ -2,7 +2,7 @@
 *.db
 !.gitkeep
 .DS_Store
-app/pkg/*
-app/bin/*
+app/bin/
+app/pkg/
 app/vendor/*
-!/app/vendor/manifest
+!app/vendor/manifest
