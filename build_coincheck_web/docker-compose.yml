@@ -1,18 +1,13 @@
 nginx:
   build: containers/nginx
   ports:
-    - '8080:80'
-  volumes_from:
-    - datastore
+    - '8000:80'
   links:
-    - web-app
+    - go
+  restart: always
 
-web-app:
-  build: .
-  ports:
-    - '8000:8000'
-  volumes_from:
-    - datastore
-
-datastore:
-  build: containers/datastore
+go:
+  build: containers/go
+  volumes:
+      - .:/working
+  restart: always

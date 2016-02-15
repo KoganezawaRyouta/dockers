@@ -1,0 +1,54 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/Sirupsen/logrus",
+			"repository": "https://github.com/Sirupsen/logrus",
+			"revision": "be52937128b38f1d99787bb476c789e2af1147f1",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/go-sql-driver/mysql",
+			"repository": "https://github.com/go-sql-driver/mysql",
+			"revision": "267b128680c46286b9ca13475c3cca5de8f79bd7",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/jinzhu/gorm",
+			"repository": "https://github.com/jinzhu/gorm",
+			"revision": "d1fcba9bfc0a7b95bf3fd6c8abb24a8a4200f80f",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/jinzhu/inflection",
+			"repository": "https://github.com/jinzhu/inflection",
+			"revision": "3272df6c21d04180007eb3349844c89a3856bc25",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/lib/pq/hstore",
+			"repository": "https://github.com/lib/pq",
+			"revision": "f59175c2986495ff94109dee3835c504a96c3e81",
+			"branch": "master",
+			"path": "/hstore"
+		},
+		{
+			"importpath": "github.com/sirupsen/logrus",
+			"repository": "https://github.com/sirupsen/logrus",
+			"revision": "be52937128b38f1d99787bb476c789e2af1147f1",
+			"branch": "master"
+		},
+		{
+			"importpath": "gopkg.in/airbrake/gobrake.v2",
+			"repository": "https://gopkg.in/airbrake/gobrake.v2",
+			"revision": "c9d51adc624b5cc4c1bf8de730a09af4878ffe2d",
+			"branch": "master"
+		},
+		{
+			"importpath": "gopkg.in/gemnasium/logrus-airbrake-hook.v2",
+			"repository": "https://gopkg.in/gemnasium/logrus-airbrake-hook.v2",
+			"revision": "31e6fd4bd5a98d8ee7673d24bc54ec73c31810dd",
+			"branch": "master"
+		}
+	]
+}
